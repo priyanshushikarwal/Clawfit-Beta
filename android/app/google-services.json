@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334036781943",
+    "project_id": "cwalfit-beta",
+    "storage_bucket": "cwalfit-beta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334036781943:android:bc9c09ac413f8280036f72",
+        "android_client_info": {
+          "package_name": "com.mycompany.thecwal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1pxq3lRPBpYvkQBoLZRx29qlsSNLCR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

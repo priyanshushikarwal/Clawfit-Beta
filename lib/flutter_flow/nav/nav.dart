@@ -98,6 +98,21 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: SignUpWidget.routeName,
           path: SignUpWidget.routePath,
           builder: (context, params) => SignUpWidget(),
+        ),
+        FFRoute(
+          name: FitnessWidget.routeName,
+          path: FitnessWidget.routePath,
+          builder: (context, params) => FitnessWidget(),
+        ),
+        FFRoute(
+          name: StoreWidget.routeName,
+          path: StoreWidget.routePath,
+          builder: (context, params) => StoreWidget(),
+        ),
+        FFRoute(
+          name: FoodWidget.routeName,
+          path: FoodWidget.routePath,
+          builder: (context, params) => FoodWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],
